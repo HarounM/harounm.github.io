@@ -1,10 +1,10 @@
-baseURL = "https://harounm.github.io"
+baseURL = "https://haroun.me"
 title   = "Haroun Maghraoui"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+PygmentsStyle = "native"
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
@@ -32,7 +32,6 @@ disable404     = false
 [taxonomies]
   tag      = "tags"
   category = "categories"
-  series   = "series"
 
 [params]
   dateform        = "2 Jan 2006"
@@ -40,8 +39,9 @@ disable404     = false
   dateformNum     = "02-01-2006"
   dateformNumTime = "02-01-2006 15:04"
 
-  description = "A personal blog where I'll be sharing various posts and writeups generally related to cybersecurity and computer science."
-  keywords = "blog, portfolio, cybersecurity, personal, writeup"
+  description = "This is a personal blog used mainly to share writeups and useful posts (and sometimes rants). Topics discussed will be mainly Cybersecurity, CTFs and everything related to computer science."
+  keywords = "blog, portfolio, cybersecurity, personal, writeup, cryptography, reverse engineering, hardware hacking, pwn"
+
   images = [""]
 
   homeSubtitle = "Knowledge seeker, hacker by nature."
@@ -55,7 +55,7 @@ disable404     = false
 
   customCSS=["/css/style.css"]
 
-  justifyContent = false 
+  justifyContent = true
   
   [params.footer]
     trademark = true
@@ -77,8 +77,8 @@ disable404     = false
     logoMark     = ">"
     logoText     = "[root@haroun.me ~]#"
     logoHomeLink = "/"
-    logoCursorColor    = "#67a2c9"
-    logoCursorAnimate  = "2s"
+    logoCursorColor    = "#b70007"
+    logoCursorAnimate  = "1s"
 
   # Uncomment this if you want a portrait on your start page
   #
@@ -105,7 +105,6 @@ disable404     = false
 
 [languages]
   [languages.en]
-  subtitle  = "Knowledge seeker, hacker by nature."
   weight    = 1
   copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
