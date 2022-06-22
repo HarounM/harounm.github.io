@@ -1,7 +1,7 @@
 ---
 title: "Solving My First Keygenme"
 date: 2022-06-12T13:31:43+01:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
